@@ -1,0 +1,11 @@
+.section-header {
+    text-transform: uppercase;
+}
+
+.section-header span:nth-child(2) {
+    color: #69f5ff;
+}
+
+.section-header span:nth-child(2):hover {
+    color: #69f5ff;
+}

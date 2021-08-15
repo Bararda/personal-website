@@ -1,10 +1,11 @@
 .social-media-link {
-    background-color: #69f5ff;
+    background-color: #5CCDD6;
     width: 25px;
     height: 25px;
     border-radius: 50px;
     padding: 5px;
     display: block;
+    transition: 0.3s;
 }
 
 .social-media-container {
@@ -13,6 +14,10 @@
     align-items: center;
     width: 100%;
     height: 100%;
+}
+  
+.social-media-link:hover {
+    background-color: #69f5ff;
 }
 
 .social-media-image {
