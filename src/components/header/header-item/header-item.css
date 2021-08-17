@@ -1,13 +1,17 @@
 .header-item {
-    color: white;
-    text-decoration: none;
+    text-decoration: underline solid transparent;
     height: 100%;
+    color: black;
     width: 100%;
     display: grid;
     justify-items: center;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 300;
+    transition: text-decoration 0.5s ease;
 }
 
 .header-item:hover {
-    text-decoration: underline;
+    text-decoration: underline solid black;
 }

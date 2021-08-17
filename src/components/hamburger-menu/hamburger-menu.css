@@ -1,0 +1,28 @@
+.hamburger-menu {
+    position: fixed;
+    right: 0;
+    transition: .5s;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    height: 100%;
+}
+
+.hamburger-menu.drawer-open {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid grey;
+}
+
+.hamburger-menu.drawer-closed {
+    width: 55px;
+    height: 100%;
+}
+
+.hamburger-menu.drawer-closed .hamburger-drawer {
+    visibility: hidden;
+    background-color: transparent;
+}
+.hamburger-menu.drawer-closed .header-item {
+    color: transparent;
+}

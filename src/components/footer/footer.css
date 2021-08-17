@@ -9,9 +9,3 @@
     justify-items: center;
     align-items: center;
 }
-
-@media only screen and (max-height: 500px) {
-    .fixed {
-        position: relative;
-    }
-}

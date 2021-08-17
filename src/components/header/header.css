@@ -1,16 +1,26 @@
 .header {
     width: 100%;
-    background-color: #282c34;
-    color: white;
+    background-color: white;
+    color: black;
     height: 60px;
+    position: fixed;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid grey;
 }
 
-@media only screen and (max-height: 500px) {
-    .fixed {
-        position: relative;
-    }
+.hamburger-menu {
+    display: none;
 }
+
+@media only screen and (max-width: 1100px) {
+    .hamburger-menu {
+        display: grid;
+    }
+  
+    .header {
+      display: none;
+    }
+  }

@@ -1,0 +1,11 @@
+.hamburger-drawer {
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: white;
+    transition: .5s;
+    /* padding-top: 35px; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-overflow: ellipsis;
+}

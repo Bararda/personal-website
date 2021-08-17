@@ -1,4 +1,13 @@
-.landing-page {
+.first-page {
     background-image: url('assets/images/victoria_flowers.jpg');
-    padding: 10px;
+    background-repeat: round;
+}
+
+.center-page {
+    display: grid;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px #30302f;
 }
