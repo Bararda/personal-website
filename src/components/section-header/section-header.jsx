@@ -14,7 +14,7 @@ const sizes = {
  * @param {('sm'|'md'|'lg')} props.size size of the header, sm, md, or lg
  * @returns
  */
-export default function SectionHeader({ header, size = sizes.large }) {
+export default function SectionHeader({ header, size = sizes.large, link = undefined }) {
 	const headerWords = header ? header.split(' ') : [];
 	const style = {};
 	if (size === sizes.large) {
@@ -24,13 +24,34 @@ export default function SectionHeader({ header, size = sizes.large }) {
 	} else if (size === sizes.small) {
 		style.fontSize = '15px';
 	}
+
+	const getHeaderText = () => headerWords.map((word) => (
+		<span>
+			{`${word} `}
+		</span>
+	));
+
+	const getLinkTag = () => {
+		const linkContent = getHeaderText();
+		if (!link) {
+			return (
+				<>
+					{linkContent}
+				</>
+			);
+		}
+		return (
+			<a href={link} target="_blank" rel="noreferrer">
+				{linkContent}
+			</a>
+		);
+	};
+
 	return (
 		<h1 className="section-header" style={style}>
-			{headerWords.map((word) => (
-				<span>
-					{`${word} `}
-				</span>
-			))}
+			{
+				getLinkTag()
+			}
 		</h1>
 	);
 }
@@ -38,9 +59,11 @@ export default function SectionHeader({ header, size = sizes.large }) {
 SectionHeader.propTypes = {
 	header: PropTypes.string,
 	size: PropTypes.string,
+	link: PropTypes.string,
 };
 
 SectionHeader.defaultProps = {
 	header: undefined,
 	size: 'large',
+	link: undefined,
 };

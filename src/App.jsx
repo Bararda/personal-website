@@ -3,7 +3,6 @@ import Header from 'components/header/header';
 import LandingPage from 'components/landing/landing';
 import Footer from 'components/footer/footer';
 import HeaderItem from 'components/header/header-item/header-item';
-import Fade from 'react-reveal/Fade';
 
 import './App.css';
 
@@ -17,9 +16,7 @@ function App() {
 				<HeaderItem href="#projects">Projects</HeaderItem>
 			</Header>
 			<LandingPage />
-			<Fade bottom>
-				<Footer />
-			</Fade>
+			<Footer />
 		</div>
 	);
 }

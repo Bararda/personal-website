@@ -15,8 +15,8 @@ export default function PersonalProject() {
 					<img className="project-image" src={RedWings} alt="Dnd management app" />
 					<div>
 						<SectionHeader header="Dnd Management" size="md" />
-						<SectionHeader header="Front end" size="sm" />
-						<SectionHeader header="Back end" size="sm" />
+						<SectionHeader header="Front end" size="sm" link="https://github.com/Bararda/inventory-manager-frontend" />
+						<SectionHeader header="Back end" size="sm" link="https://github.com/Bararda/inventory-manager-backend" />
 						<span>
 							Dnd Management is a website that allows for users to manage various
 							dnd tasks such as preparing spells, managing their inventory, and building
@@ -27,7 +27,7 @@ export default function PersonalProject() {
 				</div>
 				<div className="right-image">
 					<div>
-						<SectionHeader header="NPC Manager" size="md" />
+						<SectionHeader header="NPC Manager" size="md" link="https://github.com/Bararda/npc-manager" />
 						<span>
 							The NPC Manager is a react app that lets users create and roll multiple NPCs at
 							once using their base stats. I made this for our dm when we started playing the
@@ -39,7 +39,7 @@ export default function PersonalProject() {
 				<div className="left-image">
 					<img className="project-image" src={Arduino} alt="Dnd management app" />
 					<div>
-						<SectionHeader header="Arduino light Controller" size="md" />
+						<SectionHeader header="Arduino light Controller" size="md" link="https://github.com/Bararda/lights" />
 						<span>
 							This is a basic arduino project that I use to run my LED light strip at home. It runs
 							on an arduino nano and I have that connected to a computer running a Nodejs
@@ -49,7 +49,7 @@ export default function PersonalProject() {
 				</div>
 				<div className="right-image">
 					<div>
-						<SectionHeader header="Dice Tower" size="md" />
+						<SectionHeader header="Dice Tower" size="md" link="https://github.com/Bararda/dice-tower" />
 						<span>
 							With this project Im intending to create a dice tower that can read the rolls of
 							the players and do fun things when the player roll well or poorly. It uses
