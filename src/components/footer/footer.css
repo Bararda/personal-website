@@ -2,7 +2,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #282c34;
+    background-color: white;
+    border-top: 1px solid grey;
     color: white;
     height: 60px;
     display: grid;

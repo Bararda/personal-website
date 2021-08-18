@@ -1,8 +1,9 @@
 .section {
     background-color: white;
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding: 2em;
+    max-height: 100%;
 }
 
 

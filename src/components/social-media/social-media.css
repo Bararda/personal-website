@@ -1,5 +1,5 @@
 .social-media-link {
-    background-color: #5CCDD6;
+    background-color: white;
     width: 25px;
     height: 25px;
     border-radius: 50px;
@@ -17,7 +17,7 @@
 }
   
 .social-media-link:hover {
-    background-color: #69f5ff;
+    filter: invert(1);
 }
 
 .social-media-image {

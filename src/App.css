@@ -9,6 +9,9 @@
   pointer-events: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,6 +28,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.react-reveal {
+  /* Fixes a bug in the react reveal library */
+  animation-fill-mode: backwards !important; 
 }
 
 h1 {
