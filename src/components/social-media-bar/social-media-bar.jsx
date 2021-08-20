@@ -4,7 +4,7 @@ import SocialMediaItem from 'components/social-media/social-media';
 import github from 'assets/images/GitHub-Mark-32px.png';
 import linkedin from 'assets/images/linkedin-icon.png';
 import instagram from 'assets/images/instagram_256_black.png';
-import emailIcon from 'assets/images/email.webp';
+import emailIcon from 'assets/images/email.png';
 import './social-media-bar.css';
 
 const email = 'anthonydoucet5417@hotmail.com';

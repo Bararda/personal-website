@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './section-header.css';
+import { ReactComponent as LinkIcon } from 'assets/images/link.svg';
 
 const sizes = {
 	large: 'lg',
@@ -45,6 +46,7 @@ export default function SectionHeader({ header, size = sizes.large, link = undef
 		return (
 			<a href={link} target="_blank" rel="noreferrer">
 				{linkContent}
+				<LinkIcon />
 			</a>
 		);
 	};
