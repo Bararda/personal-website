@@ -19,9 +19,9 @@ export default function PersonalProject() {
 						<SectionHeader header="Back end" size="sm" link="https://github.com/Bararda/inventory-manager-backend" />
 						<span>
 							Dnd Management is a website that allows for users to manage various
-							dnd tasks such as preparing spells, managing their inventory, and building
-							character sheets. It&apos;s split into two repositories a Nodejs and Mysql backend
-							and a React frontend.
+							Dungeons and Dragons tasks such as preparing spells, managing their inventory,
+							and building character sheets. It&apos;s split into two repositories a Nodejs and
+							Mysql backend and a React frontend.
 						</span>
 					</div>
 				</div>
@@ -29,9 +29,9 @@ export default function PersonalProject() {
 					<div>
 						<SectionHeader header="NPC Manager" size="md" link="https://github.com/Bararda/npc-manager" />
 						<span>
-							The NPC Manager is a react app that lets users create and roll multiple NPCs at
-							once using their base stats. I made this for our dm when we started playing the
-							&apos;Out of the Abyss&apos; adventure module
+							The NPC Manager is a react app for Dungeons and Dragons that lets users create and
+							roll multiple NPCs at once using their base stats. I made this for our dm when we
+							started playing the &apos;Out of the Abyss&apos; adventure module
 						</span>
 					</div>
 					<img className="project-image" src={BlueDice} alt="Dnd management app" />
@@ -59,7 +59,6 @@ export default function PersonalProject() {
 						</span>
 					</div>
 					<img className="project-image" src={Wolfram} alt="Dnd management app" />
-
 				</div>
 			</div>
 		</div>

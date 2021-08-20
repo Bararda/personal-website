@@ -4,14 +4,18 @@ import HeadShot from 'components/head-shot/head-shot';
 import './about-me.css';
 
 export default function AboutMe() {
-	const content = `I'm a full stack software developer with a passion for learning and improving.
-	`; // TO-DO
 	return (
 		<div className="about-me">
 			<HeadShot />
 			<div>
 				<SectionHeader header="About Me" />
-				{content}
+				<span>
+					I&apos;m a full stack software developer with a passion for learning and improving.
+					I currently live in Victoria, BC and work at North Orca Technologies Inc.
+					I graduated from the Southern Alberta Institute of Technology in 2019 for
+					software development. I&apos;m always looking for new opportunities to challenge
+					myself and grow as a developer.
+				</span>
 			</div>
 		</div>
 	);

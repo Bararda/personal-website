@@ -15,11 +15,12 @@ export default function LandingPage() {
 					<AboutMe />
 				</Section>
 			</Page>
-			<Page className="center-page" id="experience">
+			<div id="experience">
 				<Section>
 					<Experience />
 				</Section>
-			</Page>
+			</div>
+
 			<div id="projects">
 				<Section>
 					<PersonalProject />
