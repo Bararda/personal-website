@@ -1,18 +1,20 @@
 const reportWebVitals = (onPerfEntry) => {
 	if (onPerfEntry && onPerfEntry instanceof Function) {
-		import('web-vitals').then(({
-			getCLS, getFID, getFCP, getLCP, getTTFB,
-		}) => {
-			getCLS(onPerfEntry);
+		import('web-vitals').then(
+			// eslint-disable-next-line object-curly-newline
+			({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+				getCLS(onPerfEntry);
 
-			getFID(onPerfEntry);
+				getFID(onPerfEntry);
 
-			getFCP(onPerfEntry);
+				getFCP(onPerfEntry);
 
-			getLCP(onPerfEntry);
+				getLCP(onPerfEntry);
 
-			getTTFB(onPerfEntry);
-		});
+				getTTFB(onPerfEntry);
+				// eslint-disable-next-line comma-dangle
+			}
+		);
 	}
 };
 
