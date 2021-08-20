@@ -25,8 +25,10 @@ export default function SectionHeader({ header, size = sizes.large, link = undef
 		style.fontSize = '15px';
 	}
 
-	const getHeaderText = () => headerWords.map((word) => (
-		<span>
+	const getHeaderText = () => headerWords.map((word, index) => (
+		// rule disabled because there's nothing unique about this string. see https://github.com/yannickcr/eslint-plugin-react/issues/1123
+		// eslint-disable-next-line react/no-array-index-key
+		<span key={index}>
 			{`${word} `}
 		</span>
 	));
@@ -58,12 +60,16 @@ export default function SectionHeader({ header, size = sizes.large, link = undef
 
 SectionHeader.propTypes = {
 	header: PropTypes.string,
-	size: PropTypes.string,
+	size: PropTypes.oneOf([
+		sizes.large,
+		sizes.medium,
+		sizes.small,
+	]),
 	link: PropTypes.string,
 };
 
 SectionHeader.defaultProps = {
 	header: undefined,
-	size: 'large',
+	size: 'lg',
 	link: undefined,
 };

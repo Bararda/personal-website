@@ -1,0 +1,20 @@
+.file-download {
+	display: grid;
+	grid-template-rows: max-content 1fr;
+	justify-items: center;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 20px;
+	color: black;
+	text-decoration: underline solid transparent;
+	transition: text-decoration 0.5s ease;
+	transition: 0.5s;
+	width: max-content;
+	background-color: white;
+}
+
+.file-download:hover {
+	text-decoration: underline solid black;
+	filter: invert(1);
+}

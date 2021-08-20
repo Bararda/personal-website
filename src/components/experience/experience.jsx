@@ -5,7 +5,7 @@ import './experience.css';
 import FileDownload from 'components/file-download/file-download';
 
 export default function Experience() {
-	const content = 'North Orca'; // TO-DO
+	const content = 'North Orca';
 	return (
 		<div className="experience">
 			<img className="headshot-image" src={NorthOrca} alt="North Orca" />
@@ -13,7 +13,7 @@ export default function Experience() {
 				<SectionHeader header="Experience" />
 				{content}
 			</div>
-			<FileDownload filePath="assets/files/resume.docx" proposedFileName="resume">Resume</FileDownload>
+			<FileDownload filePath="assets/files/resume.docx" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
 		</div>
 	);
 }

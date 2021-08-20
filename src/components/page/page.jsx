@@ -12,7 +12,11 @@ export default function Page({ children, className, id }) {
 }
 
 Page.propTypes = {
-	children: PropTypes.element,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 	className: PropTypes.string,
 	id: PropTypes.string,
 };

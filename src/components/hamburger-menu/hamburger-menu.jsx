@@ -21,7 +21,11 @@ export default function HamburgerMenu({ children }) {
 }
 
 HamburgerMenu.propTypes = {
-	children: PropTypes.element,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 };
 
 HamburgerMenu.defaultProps = {

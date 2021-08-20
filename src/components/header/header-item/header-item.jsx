@@ -12,7 +12,11 @@ export default function HeaderItem({ href, children }) {
 
 HeaderItem.propTypes = {
 	href: PropTypes.string.isRequired,
-	children: PropTypes.element,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 };
 
 HeaderItem.defaultProps = {

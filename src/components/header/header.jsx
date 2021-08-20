@@ -18,7 +18,11 @@ export default function Header({ children }) {
 }
 
 Header.propTypes = {
-	children: PropTypes.element,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 };
 
 Header.defaultProps = {

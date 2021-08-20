@@ -11,7 +11,11 @@ export default function HamburgerDrawer({ children, className }) {
 }
 
 HamburgerDrawer.propTypes = {
-	children: PropTypes.element,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 	className: PropTypes.string,
 };
 

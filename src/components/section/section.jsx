@@ -14,7 +14,11 @@ export default function Section({ children, className }) {
 }
 
 Section.propTypes = {
-	children: PropTypes.string,
+	children: PropTypes.oneOfType([
+		PropTypes.node,
+		PropTypes.string,
+		PropTypes.arrayOf(PropTypes.node),
+	]),
 	className: PropTypes.string,
 };
 
