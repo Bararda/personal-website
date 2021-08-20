@@ -1,3 +1,8 @@
 .headshot-image {
-    height: 100%;
+	height: auto;
+	width: 100%;
+}
+
+.headshot-container {
+	text-align: center;
 }

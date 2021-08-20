@@ -25,6 +25,7 @@ export default function Experience() {
 							environments.
 						</li>
 						<li>Gathered requirements from clients and designed features to meet client needs</li>
+						<li>Wrote unit tests, integration tests, API tests, and UI tests</li>
 					</ul>
 				</div>
 			</div>

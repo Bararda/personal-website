@@ -1,11 +1,12 @@
 import React from 'react';
 import useWindowDimensions from 'hooks/use-window-dimensions';
 import PropTypes from 'prop-types';
+import './page.css';
 
 export default function Page({ children, className, id }) {
 	const dimensions = useWindowDimensions();
 	return (
-		<div style={{ height: dimensions.height }} className={className} id={id}>
+		<div style={{ height: dimensions.height, minHeight: '650px' }} className={className} id={id}>
 			{children}
 		</div>
 	);

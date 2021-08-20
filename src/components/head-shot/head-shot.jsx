@@ -3,9 +3,9 @@ import headshot from 'assets/images/headshot.jpg';
 import PropTypes from 'prop-types';
 import './head-shot.css';
 
-export default function HeadShot({ height = '300px', width = '300px' }) {
+export default function HeadShot({ height = '100%', width = '100%' }) {
 	return (
-		<div style={{ height, width }}>
+		<div className="headshot-container" style={{ height, width }}>
 			<img className="headshot-image" src={headshot} alt="headshot" />
 		</div>
 	);
@@ -18,6 +18,6 @@ HeadShot.propTypes = {
 };
 
 HeadShot.defaultProps = {
-	height: '300px',
-	width: '300px',
+	height: '100%',
+	width: '100%',
 };

@@ -15,7 +15,7 @@
 	z-index: 1;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 700px) {
 	.hamburger-menu {
 		display: grid;
 	}

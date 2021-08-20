@@ -8,8 +8,26 @@
 	opacity: 0.5;
 	transition: 0.5s;
 	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .hamburger-button:hover {
 	opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+	.hamburger-button-slit {
+		background-color: var(--background-color-light);
+	}
+
+	.hamburger-button {
+		background-color: var(--background-color-dark);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.hamburger-button-slit {
+		background-color: var(--background-color-dark);
+	}
 }
