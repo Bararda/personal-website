@@ -29,7 +29,7 @@ export default function Experience() {
 					</ul>
 				</div>
 			</div>
-			<FileDownload filePath="assets/files/resume.docx" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
+			<FileDownload filePath="assets/files/resume.pdf" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
 		</div>
 	);
 }
