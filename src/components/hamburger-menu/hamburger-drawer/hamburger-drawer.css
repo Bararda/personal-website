@@ -1,11 +1,24 @@
 .hamburger-drawer {
-    height: 100%;
-    right: 0;
-    top: 0;
-    background-color: white;
-    transition: .5s;
-    /* padding-top: 35px; */
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    text-overflow: ellipsis;
+	height: 100%;
+	right: 0;
+	top: 0;
+	transition: 0.5s;
+	/* padding-top: 35px; */
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	text-overflow: ellipsis;
+}
+
+@media (prefers-color-scheme: dark) {
+	.hamburger-drawer {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-light);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.hamburger-drawer {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-light);
+	}
 }

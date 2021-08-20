@@ -1,14 +1,26 @@
 .section {
-    background-color: white;
-    width: 50%;
-    margin: auto;
-    padding: 2em;
-    max-height: 100%;
+	width: 50%;
+	margin: auto;
+	padding: 2em;
+	max-height: 100%;
 }
 
-
 @media only screen and (max-width: 1100px) {
-    .section {
-        width: 80%;
-    }
+	.section {
+		width: 80%;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.section {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-dark);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.section {
+		background-color: var(--background-color-light);
+		color: var(--text-color-light);
+	}
 }

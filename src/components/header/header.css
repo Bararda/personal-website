@@ -1,26 +1,40 @@
 .header {
-    width: 100%;
-    background-color: white;
-    color: black;
-    height: 60px;
-    position: fixed;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-bottom: 1px solid grey;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border-bottom: 1px solid grey;
+	z-index: 1;
 }
 
 .hamburger-menu {
-    display: none;
+	display: none;
+	z-index: 1;
 }
 
 @media only screen and (max-width: 1100px) {
-    .hamburger-menu {
-        display: grid;
-    }
-  
-    .header {
-      display: none;
-    }
-  }
+	.hamburger-menu {
+		display: grid;
+	}
+
+	.header {
+		display: none;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.header {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-light);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.header {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-light);
+	}
+}

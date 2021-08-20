@@ -1,17 +1,36 @@
 .header-item {
-    text-decoration: underline solid transparent;
-    height: 100%;
-    color: black;
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1.3em;
-    font-weight: 300;
-    transition: text-decoration 0.5s ease;
+	text-decoration: underline solid transparent;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 300;
+	transition: text-decoration 0.5s ease;
 }
 
 .header-item:hover {
-    text-decoration: underline solid black;
+	text-decoration: underline solid black;
+}
+
+@media (prefers-color-scheme: dark) {
+	.header-item {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-dark);
+	}
+	.header-item:hover {
+		text-decoration: underline solid var(--text-color-dark);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.header-item {
+		background-color: var(--background-color-light);
+		color: var(--text-color-light);
+	}
+	.header-item:hover {
+		text-decoration: underline solid var(--text-color-light);
+	}
 }

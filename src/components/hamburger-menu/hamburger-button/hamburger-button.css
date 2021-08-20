@@ -1,16 +1,15 @@
 .hamburger-button-slit {
-    width: 35px;
-    height: 3px;
-    background-color: black;
-    margin: 6px 0;
+	width: 35px;
+	height: 3px;
+	margin: 6px 0;
 }
 
 .hamburger-button {
-    opacity: 0.5;
-    transition: .5s;
-    margin: 10px;
+	opacity: 0.5;
+	transition: 0.5s;
+	margin: 10px;
 }
 
 .hamburger-button:hover {
-    opacity: 1;
+	opacity: 1;
 }

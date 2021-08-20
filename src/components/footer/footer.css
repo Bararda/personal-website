@@ -1,12 +1,24 @@
 .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    border-top: 1px solid grey;
-    color: white;
-    height: 60px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid grey;
+	height: 60px;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+@media (prefers-color-scheme: dark) {
+	.footer {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-light);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.footer {
+		background-color: var(--background-color-light);
+		color: var(--text-color-light);
+	}
 }

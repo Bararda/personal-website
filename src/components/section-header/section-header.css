@@ -1,22 +1,40 @@
 .section-header {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .section-header a {
-    color: black;
-    text-decoration: underline solid transparent;
-    transition: text-decoration 0.5s ease;
-
+	color: black;
+	text-decoration: underline solid transparent;
+	transition: text-decoration 0.5s ease;
 }
 
-.section-header span:nth-child(2), .section-header a:nth-child(2) {
-    color: #69f5ff;
+.section-header span:nth-child(2),
+.section-header a:nth-child(2) {
+	color: #69f5ff;
 }
 
-.section-header span:nth-child(2):hover, .section-header a:nth-child(2):hover {
-    color: #69f5ff;
+.section-header span:nth-child(2):hover,
+.section-header a:nth-child(2):hover {
+	color: #69f5ff;
 }
 
-.section-header a:hover {
-    text-decoration: underline solid black;
+@media (prefers-color-scheme: dark) {
+	.section-header a {
+		background-color: var(--background-color-dark);
+		color: var(--text-color-dark);
+	}
+	.section-header a:hover {
+		text-decoration: underline solid var(--text-color-dark);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.section-header a {
+		background-color: var(--background-color-light);
+		color: var(--text-color-light);
+	}
+
+	.section-header a:hover {
+		text-decoration: underline solid var(--text-color-light);
+	}
 }
