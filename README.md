@@ -1,4 +1,4 @@
-# Anthony Doucet's personal website
+# Anthony Doucets personal website
 
 Made with React and hosted at https://www.anthony.bio
 
