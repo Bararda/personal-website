@@ -54,8 +54,8 @@ export default function PersonalProject() {
 							With this project Im intending to create a dice tower that can read the rolls of
 							the players and do fun things when the player roll well or poorly. It uses
 							a raspberry pi and picamera to take the photos and send those off the a Nodejs server
-							for image processing. The image processing is done using the Wolfram Language it uses
-							the google OCR for reading the text
+							for image processing. The image processing is done using the Wolfram Language and it
+							uses the google OCR for reading the text
 						</span>
 					</div>
 					<img className="project-image" src={Wolfram} alt="Dnd management app" />

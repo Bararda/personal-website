@@ -18,7 +18,7 @@
 
 @media (prefers-color-scheme: light) {
 	.hamburger-drawer {
-		background-color: var(--background-color-dark);
+		background-color: var(--background-color-light);
 		color: var(--text-color-light);
 	}
 }
