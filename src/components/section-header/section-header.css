@@ -10,12 +10,12 @@
 
 .section-header span:nth-child(2),
 .section-header a:nth-child(2) {
-	color: #69f5ff;
+	color: var(--accent-color);
 }
 
 .section-header span:nth-child(2):hover,
 .section-header a:nth-child(2):hover {
-	color: #69f5ff;
+	color: var(--accent-color);
 }
 
 @media (prefers-color-scheme: dark) {

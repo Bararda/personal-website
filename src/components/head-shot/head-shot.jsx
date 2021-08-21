@@ -6,7 +6,7 @@ import './head-shot.css';
 export default function HeadShot({ height = '100%', width = '100%' }) {
 	return (
 		<div className="headshot-container" style={{ height, width }}>
-			<img className="headshot-image" src={headshot} alt="headshot" />
+			<img className="headshot-image image-accent" src={headshot} alt="headshot" />
 		</div>
 	);
 }

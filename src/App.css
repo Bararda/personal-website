@@ -10,6 +10,7 @@ html {
 	--background-color-dark: #232327;
 	--text-color-dark: white;
 	--text-color-light: black;
+	--accent-color: #69f5ff;
 }
 
 @media (prefers-reduced-motion: no-preference) {

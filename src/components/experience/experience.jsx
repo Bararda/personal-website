@@ -9,7 +9,7 @@ export default function Experience() {
 		<div className="experience">
 			<SectionHeader header="Experience" />
 			<div className="north-orca-experience">
-				<img className="north-orca-logo" src={NorthOrca} alt="North Orca" />
+				<img className="north-orca-logo image-accent" src={NorthOrca} alt="North Orca" />
 				<div>
 					<SectionHeader header="North Orca Technologies Inc" size="md" />
 					<ul>

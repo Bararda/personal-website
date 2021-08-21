@@ -3,6 +3,12 @@
 	width: 100%;
 }
 
+.image-accent {
+	border: 10px solid transparent;
+	border-left: 5px solid var(--accent-color);
+	border-bottom: 5px solid var(--accent-color);
+}
+
 .headshot-container {
 	text-align: center;
 }
