@@ -1,13 +1,13 @@
 .first-page {
-    background-image: url('assets/images/victoria_flowers.jpg');
-    background-repeat: round;
+	background-image: url('assets/images/arcade.jpg');
+	background-repeat: round;
 }
 
 .center-page {
-    display: grid;
-    align-items: center;
+	display: grid;
+	align-items: center;
 }
 
 .shadow {
-    box-shadow: 10px 10px 5px #30302f;
+	box-shadow: 10px 10px 5px #30302f;
 }
