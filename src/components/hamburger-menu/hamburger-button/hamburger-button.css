@@ -30,4 +30,8 @@
 	.hamburger-button-slit {
 		background-color: var(--background-color-dark);
 	}
+
+	.hamburger-button {
+		background-color: var(--background-color-light);
+	}
 }
