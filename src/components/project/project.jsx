@@ -11,7 +11,7 @@ export default function PersonalProject() {
 		<div className="personal-projects">
 			<SectionHeader header="Personal Projects" />
 			<div className="personal-projects-body">
-				<div className="left-image">
+				<div className="project-grid">
 					<img className="project-image" src={RedWings} alt="Dnd management app" />
 					<div>
 						<SectionHeader header="Dnd Management" size="md" />
@@ -25,7 +25,8 @@ export default function PersonalProject() {
 						</span>
 					</div>
 				</div>
-				<div className="right-image">
+				<div className="project-grid right-image">
+					<div className="empty-column" />
 					<div>
 						<SectionHeader header="NPC Manager" size="md" link="https://github.com/Bararda/npc-manager" />
 						<span>
@@ -36,7 +37,7 @@ export default function PersonalProject() {
 					</div>
 					<img className="project-image" src={BlueDice} alt="Dnd management app" />
 				</div>
-				<div className="left-image">
+				<div className="project-grid">
 					<img className="project-image" src={Arduino} alt="Dnd management app" />
 					<div>
 						<SectionHeader header="Arduino light Controller" size="md" link="https://github.com/Bararda/lights" />
@@ -47,7 +48,8 @@ export default function PersonalProject() {
 						</span>
 					</div>
 				</div>
-				<div className="right-image">
+				<div className="project-grid right-image">
+					<div className="empty-column" />
 					<div>
 						<SectionHeader header="Dice Tower" size="md" link="https://github.com/Bararda/dice-tower" />
 						<span>

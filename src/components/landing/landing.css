@@ -11,3 +11,7 @@
 .shadow {
 	box-shadow: 10px 10px 5px #30302f;
 }
+
+section.about-me-container {
+	width: 50%;
+}

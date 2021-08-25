@@ -1,8 +1,10 @@
 .north-orca-experience {
 	display: grid;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 200px 1fr max-content;
 	text-align: left;
-	column-gap: 10px;
+	column-gap: 20px;
+	align-items: center;
+	justify-items: center;
 }
 
 .experience {

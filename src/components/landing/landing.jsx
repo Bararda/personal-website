@@ -11,7 +11,7 @@ export default function LandingPage() {
 	return (
 		<div className="landing-page">
 			<Page className="first-page center-page" id="about-me">
-				<Section className="shadow">
+				<Section className="shadow about-me-container">
 					<AboutMe />
 				</Section>
 			</Page>

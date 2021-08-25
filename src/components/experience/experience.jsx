@@ -28,8 +28,8 @@ export default function Experience() {
 						<li>Wrote unit tests, integration tests, API tests, and UI tests</li>
 					</ul>
 				</div>
+				<FileDownload filePath="assets/files/resume.pdf" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
 			</div>
-			<FileDownload filePath="assets/files/resume.pdf" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
 		</div>
 	);
 }
