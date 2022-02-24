@@ -5,7 +5,7 @@ import Footer from 'components/footer/footer';
 import HeaderItem from 'components/header/header-item/header-item';
 
 import './App.css';
-
+// autobuild trigger
 function App() {
 	return (
 		<div className="App">
