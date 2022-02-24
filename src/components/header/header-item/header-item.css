@@ -17,7 +17,6 @@
 
 @media (prefers-color-scheme: dark) {
 	.header-item {
-		background-color: var(--background-color-dark);
 		color: var(--text-color-dark);
 	}
 	.header-item:hover {
@@ -25,7 +24,7 @@
 	}
 }
 
-@media (prefers-color-scheme: light) {
+@media only screen and (min-width: 700px) and (prefers-color-scheme: light) {
 	.header-item {
 		background-color: var(--background-color-light);
 		color: var(--text-color-light);
