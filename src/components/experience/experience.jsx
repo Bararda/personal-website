@@ -31,6 +31,7 @@ export default function Experience() {
 				<FileDownload filePath="resume.pdf" proposedFileName="Anthony_Doucet_Resume.pdf"><span>Resume</span></FileDownload>
 			</div>
 		</div>
+
 	);
 }
 
