@@ -4,6 +4,7 @@ import RedWings from 'assets/images/red_wings.png';
 import BlueDice from 'assets/images/blue_wings.png';
 import Wolfram from 'assets/images/wolfram.png';
 import Arduino from 'assets/images/arduino.png';
+import WackyWarehouse from 'assets/images/ww.png';
 import './project.css';
 
 export default function PersonalProject() {
@@ -38,7 +39,20 @@ export default function PersonalProject() {
 					<img className="project-image" src={BlueDice} alt="Dnd management app" />
 				</div>
 				<div className="project-grid">
-					<img className="project-image" src={Arduino} alt="Dnd management app" />
+					<img className="project-image" src={WackyWarehouse} alt="Dnd management app" />
+					<div>
+						<SectionHeader header="Lost Relic Game Jam 2022" size="md" link="https://github.com/Bararda/lost-relic-game-jam-2022" />
+						<SectionHeader header="Trevors Github" size="sm" link="https://github.com/bilbopphil" />
+						<span>
+							A submission for the Lost Relic Game Jam 2022. This game is made using Unity and C#.
+							It was developed by myself and Trevor
+							It was a fun project that we did as a means to better learn Unity and
+							learn more about game development.
+						</span>
+					</div>
+				</div>
+				<div className="project-grid right-image">
+					<div className="empty-column" />
 					<div>
 						<SectionHeader header="Arduino light Controller" size="md" link="https://github.com/Bararda/lights" />
 						<span>
@@ -47,9 +61,11 @@ export default function PersonalProject() {
 							server hosting a basic webpage for me to control the lights
 						</span>
 					</div>
+					<img className="project-image" src={Arduino} alt="Dnd management app" />
+
 				</div>
-				<div className="project-grid right-image">
-					<div className="empty-column" />
+				<div className="project-grid">
+					<img className="project-image" src={Wolfram} alt="Dnd management app" />
 					<div>
 						<SectionHeader header="Dice Tower" size="md" link="https://github.com/Bararda/dice-tower" />
 						<span>
@@ -60,7 +76,6 @@ export default function PersonalProject() {
 							uses the google OCR for reading the text
 						</span>
 					</div>
-					<img className="project-image" src={Wolfram} alt="Dnd management app" />
 				</div>
 			</div>
 		</div>

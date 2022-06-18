@@ -12,6 +12,7 @@ export default function Experience() {
 				<img className="north-orca-logo image-accent" src={NorthOrca} alt="North Orca" />
 				<div>
 					<SectionHeader header="North Orca Technologies Inc" size="md" />
+					<SectionHeader header="Lead Software Developer" size="sm" />
 					<ul>
 						<li>
 							Developed and maintained code written in Javascripts ES6 syntax, Angular,
