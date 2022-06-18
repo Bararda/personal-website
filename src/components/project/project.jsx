@@ -42,7 +42,7 @@ export default function PersonalProject() {
 					<img className="project-image" src={WackyWarehouse} alt="Dnd management app" />
 					<div>
 						<SectionHeader header="Lost Relic Game Jam 2022" size="md" link="https://github.com/Bararda/lost-relic-game-jam-2022" />
-						<SectionHeader header="Trevors Github" size="sm" link="https://github.com/bilbopphil" />
+						<SectionHeader header="Trevors Github" size="sm" link="https://github.com/billbobphil" />
 						<span>
 							A submission for the Lost Relic Game Jam 2022. This game is made using Unity and C#.
 							It was developed by myself and Trevor
