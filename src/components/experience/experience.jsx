@@ -29,7 +29,7 @@ export default function Experience() {
 						<li>Wrote unit tests, integration tests, API tests, and UI tests</li>
 					</ul>
 				</div>
-				<FileDownload filePath="https://drive.google.com/file/d/1GAozq17goUK-ZCfrL_cPotBa0v1ev0-X/view"><span>Resume</span></FileDownload>
+				<FileDownload filePath="https://drive.google.com/file/d/1DjB9mjFHt_zaP5IaCtw4NjUkB7hcd1K4/view?usp=sharing"><span>Resume</span></FileDownload>
 			</div>
 		</div>
 
